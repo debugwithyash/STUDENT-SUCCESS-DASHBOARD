@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Success Dashboard</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#2563eb;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.profile img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    background:#dbeafe;
+    padding:20px;
+    border-radius:10px;
+    width:200px;
+}
+
+progress{
+    width:100%;
+}
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e40af;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎓 Student Success Dashboard</h1>
+    <p>Track Academics, Coding & Career Growth</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Academics</a>
+    <a href="#">Projects</a>
+    <a href="#">Internships</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+<h2>👤 Student Profile</h2>
+
+<div class="profile">
+
+    <img src="yash.jpeg" alt="Yash Chaudhary" class="profile-pic">
+
+    <div>
+
+        <h3>Yash Chaudhary 🚀</h3>
+
+        <p><b>Course:</b> B.Tech CSE (AI)</p>
+
+        <p><b>College:</b> GURUGRAM UNIVERSITY</p>
+
+        <p><b>Year:</b> 2nd Year</p>
+
+        <p><b>Role:</b> Aspiring Frontend Developer</p>
+
+        <p><b>Projects Built:</b> 16+</p>
+
+        <p><b>Hackathons:</b> 5+</p>
+
+    </div>
+
+</div>
+
+</section>
+<section>
+
+<h2>📊 Academic Overview</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>CGPA</h3>
+<p>8.5</p>
+</div>
+
+<div class="card">
+<h3>Attendance</h3>
+<p>85%</p>
+</div>
+
+<div class="card">
+<h3>Projects</h3>
+<p>16+</p>
+</div>
+
+<div class="card">
+<h3>Hackathons</h3>
+<p>10+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>📈 Attendance Tracker</h2>
+
+<p>Current Attendance</p>
+
+<progress value="85" max="100"></progress>
+
+<p>85% Completed</p>
+
+</section>
+
+<section>
+
+<h2>📚 Subjects</h2>
+
+<ul>
+<li>Web Development</li>
+<li>Java Programming</li>
+<li>Data Structures</li>
+<li>Artificial Intelligence</li>
+<li>Database Management System</li>
+<li>Operating Systems</li>
+</ul>
+
+</section>
+<!-- ASSIGNMENTS -->
+
+<section>
+
+<h2>📝 Assignments</h2>
+
+<table border="1" width="100%">
+<tr>
+<th>Subject</th>
+<th>Status</th>
+<th>Deadline</th>
+</tr>
+
+<tr>
+<td>Java</td>
+<td>Completed</td>
+<td>10 June</td>
+</tr>
+
+<tr>
+<td>DBMS</td>
+<td>Pending</td>
+<td>15 June</td>
+</tr>
+
+<tr>
+<td>Web Development</td>
+<td>Completed</td>
+<td>12 June</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- UPCOMING EXAMS -->
+
+<section>
+
+<h2>📅 Upcoming Exams</h2>
+
+<ol>
+<li>Java Programming - 15 June</li>
+<li>DBMS - 18 June</li>
+<li>Artificial Intelligence - 22 June</li>
+<li>Operating Systems - 25 June</li>
+</ol>
+
+</section>
+
+
+<!-- CODING SKILLS -->
+
+<section>
+
+<h2>💻 Coding Skills</h2>
+
+<p>HTML</p>
+<progress value="90" max="100"></progress>
+
+<p>CSS</p>
+<progress value="70" max="100"></progress>
+
+<p>Java</p>
+<progress value="75" max="100"></progress>
+
+<p>GitHub</p>
+<progress value="85" max="100"></progress>
+
+</section>
+
+
+<!-- INTERNSHIP TRACKER -->
+
+<section>
+
+<h2>🚀 Internship Tracker</h2>
+
+<table border="1" width="100%">
+
+<tr>
+<th>Company</th>
+<th>Role</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Google</td>
+<td>Software Intern</td>
+<td>Applied</td>
+</tr>
+
+<tr>
+<td>Microsoft</td>
+<td>Frontend Intern</td>
+<td>Shortlisted</td>
+</tr>
+
+<tr>
+<td>Amazon</td>
+<td>SDE Intern</td>
+<td>Pending</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+
+<section>
+
+<h2>🏆 Achievements</h2>
+
+<ul>
+<li>✅ Smart India Hackathon Round 1 Qualified</li>
+<li>✅ Participated in 10+ Hackathons</li>
+<li>✅ Built 15+ Projects</li>
+<li>✅ Learning DSA in Java</li>
+<li>✅ Active GitHub Learner</li>
+</ul>
+
+</section>
+
+
+<!-- LEARNING ROADMAP -->
+
+<section>
+
+<h2>🛣 Learning Roadmap</h2>
+
+<ul>
+<li>HTML ✅</li>
+<li>CSS ✅</li>
+<li>JavaScript ⏳</li>
+<li>React 🔒</li>
+<li>Backend Development 🔒</li>
+<li>Full Stack Development 🔒</li>
+</ul>
+
+</section>
+
+
+<!-- TIMETABLE -->
+
+<section>
+
+<h2>📚 Weekly Study Timetable</h2>
+
+<table border="1" width="100%">
+
+<tr>
+<th>Day</th>
+<th>Topic</th>
+</tr>
+
+<tr>
+<td>Monday</td>
+<td>Java</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>HTML & CSS</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>DSA</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+<td>Projects</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>Git & GitHub</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- DAILY GOALS -->
+
+<section>
+
+<h2>🎯 Daily Goals</h2>
+
+<input type="checkbox"> Complete Coding Practice<br><br>
+
+<input type="checkbox"> Learn New Concept<br><br>
+
+<input type="checkbox"> Build One Project<br><br>
+
+<input type="checkbox"> Push Code to GitHub<br><br>
+
+</section>
+
+
+<!-- GITHUB STATS -->
+
+<section>
+
+<h2>📈 GitHub Statistics</h2>
+
+<p>Repositories: 20+</p>
+<p>Projects Built: 16+</p>
+<p>Contributions: 100+</p>
+<p>Learning Streak: Active 🔥</p>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section>
+
+<h2>💼 My Projects</h2>
+
+<ul>
+<li>Portfolio Website</li>
+<li>Resume Website</li>
+<li>Career Roadmap</li>
+<li>Headphone Store Website</li>
+<li>Habit Tracker</li>
+<li>Student Internship Tracker</li>
+<li>Student Success Dashboard</li>
+</ul>
+
+</section>
+
+
+<!-- CERTIFICATES -->
+
+<section>
+
+<h2>📜 Certificates</h2>
+
+<ul>
+<li>Azure Fundamentals</li>
+<li>Web Development Basics</li>
+<li>Git & GitHub Essentials</li>
+</ul>
+
+</section>
+
+
+<!-- NOTICE BOARD -->
+
+<section>
+
+<h2>📢 Notice Board</h2>
+
+<marquee>
+Internship Applications Open | Day 16 Project Completed 🚀 | Next Goal: JavaScript
+</marquee>
+
+</section>
+
+
+<!-- QUOTE -->
+
+<section>
+
+<h2>💡 Quote of the Day</h2>
+
+<blockquote>
+"Small progress every day leads to big results."
+</blockquote>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section>
+
+<h2>🌐 Connect With Me</h2>
+
+<a href="https://github.com/debugwithyash" target="_blank">
+    <button>💻 GitHub</button>
+</a>
+
+<a href="https://www.linkedin.com/in/yash-chaudhary-325814329?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    <button>💼 LinkedIn</button>
+</a>
+
+<a href="https://www.instagram.com/debug.withyash?igsh=a2U2ZnBvNm53YTBq" target="_blank">
+    <button>📸 Instagram</button>
+</a>
+
+<a href="mailto: debug.withyash05@gmail.com">
+    <button>📧 Email Me</button>
+</a>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Yash Chaudhary | Student Success Dashboard 🚀</p>
+
+</footer>
+
+</body>
+</html>
