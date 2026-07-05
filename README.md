@@ -3,13 +3,12 @@
 A comprehensive student dashboard built using **HTML & CSS** to help students track academics, coding progress, internships, projects, achievements, and career growth in one place.
 
 ## 🚀 Live Demo:
-https://debugwithyash.github.io/STUDENT-SUCCESS-DASHBOARD/
+https://studentsuccessdashboard.netlify.app/
 
 Add your GitHub Pages link here:
 
-```text
+
 https://debugwithyash.github.io/student-success-dashboard/
-```
 
 ## 📌 Features
 
