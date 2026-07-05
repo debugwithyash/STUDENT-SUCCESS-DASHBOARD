@@ -5,10 +5,9 @@ A comprehensive student dashboard built using **HTML & CSS** to help students tr
 ## 🚀 Live Demo:
 https://studentsuccessdashboard.netlify.app/
 
-Add your GitHub Pages link here:
+ GitHub Pages Repository:
+ https://debugwithyash.github.io/STUDENT-SUCCESS-DASHBOARD/
 
-
-https://debugwithyash.github.io/student-success-dashboard/
 
 ## 📌 Features
 
